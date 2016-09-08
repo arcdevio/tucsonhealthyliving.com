@@ -1,0 +1,116 @@
+/* --------------------------------------------GENERAL CONTENT */
+body {
+	width: 100%;
+	font-family: Helvetica, sans-serif;
+	margin: 0 auto;
+	overflow: auto;
+	color: #333333;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+}
+h1 {
+}
+p {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1em;
+}
+a, a:link, a:visited, a:focus, a:hover { 
+	color: #D84200; text-decoration: none;
+}
+body {
+	background: url('http://res.cloudinary.com/dbc2wlvk8/image/upload/q_60/v1446318921/healthy_living_bg_zjvcdq.jpg') no-repeat center;
+	background-attachment:fixed;
+}
+.clear {
+	clear: both;
+	line-height: 1px;
+	visibility: hidden;
+}
+.wrapper {
+	position: relative;
+}
+.logo {
+	max-width:567px;
+	margin:0 auto;
+	text-align:center;
+}
+.logo h1 {
+	color:white;
+	font-size: 55px;
+	padding:0;
+	margin:0;
+	line-height:1.25em;
+}
+.logo h2 {
+	color:white;
+	font-size:24px;
+	padding:0 0 0 0;
+	margin:0;
+	line-height:1.25em;
+}
+.featured_boxes {
+	padding-top:30px;
+}
+.no-padding {
+	padding:0;
+	margin:0;
+}
+.featured_boxes .diamond_box {
+	background: url('../images/diamond.png') no-repeat; 
+	background-size:contain;
+	min-height:350px;
+	max-width:350px;
+	margin:0 auto;
+}
+.main_content {
+	padding-top:20px;
+}
+.main_content .row {
+	background: url('../images/white_trans.png') repeat;
+}
+.diamond_box .text {
+	    padding: 50px 100px;
+		vertical-align:central;
+}
+.diamond_box .text p, .diamond_box .text ul li {
+	font-size:12px;
+	text-align:center;
+}
+.diamond_box .text h3 {
+	font-size:20px;
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+
+/* Small screens  */
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 640px) { 
+	body {
+		background-attachment:scroll;
+		background-repeat:repeat-y;
+	}
+} 
+	
+/* Medium screens */
+@media only screen and (max-width: 1024px) { 
+	.logo {
+		max-width:400px;
+	}
+	.logo h1 {
+		font-size: 36px;
+	}
+	.logo h2 {
+		font-size:20px;
+	}
+	.featured_boxes .diamond_box {
+		
+	}
+} 
+
+/* Large screens */
+@media only screen and (min-width: 1025px) { } 
