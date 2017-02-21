@@ -17,7 +17,7 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 1em;
 }
-a, a:link, a:visited, a:focus, a:hover { 
+a, a:link, a:visited, a:focus, a:hover {
 	color: #D84200; text-decoration: none;
 }
 body {
@@ -36,6 +36,7 @@ body {
 	max-width:567px;
 	margin:0 auto;
 	text-align:center;
+	padding: 1rem;
 }
 .logo h1 {
 	color:white;
@@ -59,7 +60,7 @@ body {
 	margin:0;
 }
 .featured_boxes .diamond_box {
-	background: url('../images/diamond.png') no-repeat; 
+	background: url('../images/diamond.png') no-repeat;
 	background-size:contain;
 	min-height:350px;
 	max-width:350px;
@@ -67,6 +68,7 @@ body {
 }
 .main_content {
 	padding-top:20px;
+	margin: 1rem;
 }
 .main_content .row {
 	background: url('../images/white_trans.png') repeat;
@@ -89,15 +91,15 @@ body {
 /* Small screens  */
 @media only screen { } /* Define mobile styles */
 
-@media only screen and (max-width: 640px) { 
+@media only screen and (max-width: 640px) {
 	body {
 		background-attachment:scroll;
 		background-repeat:repeat-y;
 	}
-} 
-	
+}
+
 /* Medium screens */
-@media only screen and (max-width: 1024px) { 
+@media only screen and (max-width: 1024px) {
 	.logo {
 		max-width:400px;
 	}
@@ -108,9 +110,9 @@ body {
 		font-size:20px;
 	}
 	.featured_boxes .diamond_box {
-		
+
 	}
-} 
+}
 
 /* Large screens */
-@media only screen and (min-width: 1025px) { } 
+@media only screen and (min-width: 1025px) { }

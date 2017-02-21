@@ -1,0 +1,230 @@
+/* --------------------------------------------HOMEPAGE MAIN SLIDESHOW */
+
+.sliderInterior {
+	position: relative;
+	overflow: hidden;
+}
+.sliderInterior .slideContainerInterior {
+	width: 100%;
+}
+.sliderInterior .slideContainerInterior img.slide {
+	position: relative;
+	height:358px;
+	width:100%;
+}
+.sliderInterior .slideContainer .slide {
+	margin:0 auto;
+}
+.sliderInterior .interiorSlides {
+	width:900px;
+	margin: 0 auto;
+}
+.sliderInterior .interiorSlides .captionText {
+	position: absolute;
+	top:35%;
+	text-align: center;
+	width:100%;
+}
+.sliderInterior .interiorSlides .innerMid {
+	-webkit-transform: skewX(26deg);
+	-ms-transform: skewX(26deg);
+	transform: skewX(26deg);
+	overflow: hidden;
+}
+.sliderInterior .interiorSlides .innerSlides {
+	-webkit-transform: skewX(-26deg);
+	-ms-transform: skewX(-26deg);
+	transform: skewX(-26deg);
+	left:-14%;
+	position: relative;
+	width: 128%;
+}
+.sliderInterior .interiorSlides .slick-current {
+	z-index: 600;
+}
+.sliderInterior .interiorSlides .title {
+	font-size: 48px;
+	line-height: 55px;
+	font-family: 'BlueHighwayW00-Regular';
+	text-transform: uppercase;
+	text-shadow: 4px 0 12px #1c1c1c;
+	letter-spacing: 3px;
+}
+.sliderInterior .interiorSlides .description {
+	border-bottom: 1px solid #fff;
+	font-family: "BlueHighwayW00-Condense";
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 19px;
+	margin: 9px auto -3px;
+	padding-bottom: 12px;
+	text-shadow: 4px 0 12px #1c1c1c;
+	text-transform: uppercase;
+	width: 236px;
+}
+.sliderInterior .interiorSlides a.moreLink {
+  font-family: 'Blue Highway W00 Bold';
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #fff;
+  text-shadow: 4px 0 12px #1c1c1c;
+}
+.sliderInterior .interiorSlides .white {
+	color:#fff;
+}
+.sliderInterior .angles {
+	width: 900px;
+	left:50%;
+	margin-left: -450px;
+	z-index: 700;
+	position: absolute;
+	height: 100%;
+	z-index: 500;
+}
+.sliderInterior .angles .angleLeft {
+	left: -90%;
+	width: 90%;
+	position: absolute;
+	background-color: #f8dd61;
+	display: block;
+	height: 100.1%;
+	opacity: 0.68;
+	overflow: hidden;
+	top: 0;
+	-webkit-transform: skewX(26deg);
+	-ms-transform: skewX(26deg);
+	transform: skewX(26deg);
+}
+.sliderInterior .angles .angleRight {
+	right: -90%;
+	width: 90%;
+	position: absolute;
+	background-color: #009485;
+	display: block;
+	height: 100.1%;
+	opacity: 0.68;
+	overflow: hidden;
+	top: 0;
+	-webkit-transform: skewX(26deg);
+	-ms-transform: skewX(26deg);
+	transform: skewX(26deg);
+}
+.sliderInterior .arrows {
+	position: absolute;
+	top: 47%;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	z-index: 700;
+}
+.sliderInterior .prevSlide {
+	float:left;
+	padding-left: 25%;
+}
+.sliderInterior .nextSlide {
+	float:right;
+	padding-right: 25%;
+}
+.sliderInterior .prevSlide span {
+	background-image: url("/images/slideshow-prev.png");
+	display: block;
+	height: 70px;
+	width: 40px;
+	cursor: pointer;
+}
+.sliderInterior .nextSlide span {
+	background-image: url("/images/slideshow-next.png");
+	display: block;
+	height: 70px;
+	width: 40px;
+	cursor: pointer;
+}
+.sliderInterior .shadow {
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index:100;
+	height: 0;
+}
+.sliderInterior .shadow.upper {
+	box-shadow: 0 1px 10px 9px rgba(50, 50, 50, 0.32);
+}
+.sliderInterior .shadow.lower {
+	bottom: 0;
+	top: auto;
+	box-shadow: 0 -1px 10px 9px rgba(50, 50, 50, 0.32);
+}
+
+@media only screen and (max-width: 1024px) {
+	.sliderInterior .slideContainerInterior img.slide {
+		height:320px;
+	}
+	.sliderInterior .angles {
+		width:850px;
+		margin-left: -425px;
+	}
+	.sliderInterior .sliderInterior .prevSlide {
+		float:left;
+		padding-left: 2%;
+	}
+	.sliderInterior .sliderInterior .nextSlide {
+		float:right;
+		padding-right: 2%;
+	}
+	.sliderInterior .interiorSlides {
+		width:800px;
+	}
+	.sliderInterior .interiorSlides {
+		width:850px;
+	}
+}
+@media only screen and (max-width: 766px) {
+	.sliderInterior .slideContainerInterior img.slide {
+		height:246px;
+	}
+	.sliderInterior .sliderInterior .prevSlide {
+		float:left;
+		padding-left: 10%;
+	}
+	.sliderInterior .sliderInterior .nextSlide {
+		float:right;
+		padding-right: 10%;
+	}
+	.sliderInterior .interiorSlides .captionText {
+		top:25%;
+	}
+	.sliderInterior .angles {
+		width:500px;
+		margin-left: -250px;
+	}
+	.sliderInterior .interiorSlides {
+		width:500px;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.sliderInterior .slideContainerInterior img.slide {
+		height:200px;
+	}
+	.sliderInterior .prevSlide {
+		float:left;
+		padding-left: 5%;
+	}
+	.sliderInterior .nextSlide {
+		float:right;
+		padding-right: 5%;
+	}
+	.sliderInterior .interiorSlides .captionText {
+		top:15%;
+	}
+	.sliderInterior .angles {
+		width:400px;
+		margin-left: -200px;
+	}
+	.sliderInterior .interiorSlides {
+		width:400px;
+	}
+}
